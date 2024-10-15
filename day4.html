@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <style>
+    table{
+      border-collapse: collapse;
+      border: 2px solid red;
+    }
+    th{
+      background-color: bisque;
+     
+      font-size: 25px;
+    }
+    td{
+      background-color:aqua;
+      
+      }
+    th,td{
+      color: tomato;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    caption{
+      color: crimson;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }  
+  </style>
+  <table border="1" height="50%" width="100%" cellspacing="10px">
+    <caption>Students list</caption>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th colspan="2">Course & Day of joining</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Kiran</td>
+        <td>Mern</td>
+        <td>30/07/24</td>
+      </tr>
+      <tr>
+        <td>Devin</td>
+        <td>Testing</td>
+        <td>29/07/24</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>No slot</td>
+        <td>No slot</td>
+        <td>No slot</td>
+      </tr>
+    </tfoot>
+  </table>
+  <br>
+  <table border="1">
+    <tr>
+      <th rowspan="2">Header 1</th>
+      <th colspan="2">Header2&3</th>
+    </tr>
+    <tr>
+      <th>Subheader 2</th>
+      <th>Subheader 3</th>
+    </tr>
+    <tr>
+      <td>Data 1</td>
+      <td>data 2</td>
+      <td>data 3</td>
+    </tr>
+  </table>
+</body>
+</html>

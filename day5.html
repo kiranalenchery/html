@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Form</h2>
+  <fieldset form="form1">
+    <legend>Re<span style="color: blueviolet;font-size: 30px;">g</span>istration F&nbsp;orm</legend>
+    <label for="firstname">First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="First Name" required><br><br>
+    <lable for="secondname">Second Name:</lable>
+    <input type="text" id="sname" name="sname" placeholder="Second Name" required><br><br>
+    <label for="dateofbirth">Date of Birth:</label>
+    <input type="date" name="dob" id="dob"><br><br>
+    <label for="mobile">Phone Number:</label>
+    <input type="number" id="mob" name="mob" placeholder="Phone Number"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="passw" name="passw" placeholder="Password" required><br><br>
+    <div>
+      <h3>Gender</h3>
+      <input type="radio" id="male" name="gender">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender">
+      <label for="female">Female</label>
+      <input type="radio" id="others" name="gender">
+      <label for="others">Others</label>
+    </div>
+    <div>
+      <h3>Hobbies</h3>
+      <input type="checkbox" name="game" id="cricket">
+      <label for="cricket">Cricket</label>
+      <input type="checkbox" name="game" id="football">
+      <label for="football">Football</label>
+      <input type="checkbox" name="game" id="tennis">
+      <label for="tennis">Tennis</label>
+    </div>
+    <div>
+      <h3>State</h3>
+      <label for="state">State</label>
+        <select name="state" id="state">
+          <option value="kerala">Kerala</option>
+          <option value="karnataka">Karnataka</option>
+          <option value="tamil nadu">Tamil Nadu</option>
+          <option value="Maharashtra">Maharashtra</option>
+        </select>
+     </div>
+     <div>
+      <h4>Address</h4>
+      <label for="address">Address</label>
+      <textarea cols="35" rows="5" placeholder="Address"></textarea>
+     </div>
+     <div>
+      <h4>Upload</h4>
+      <label for="upload">Upload</label>
+      <input type="file" name="upload" id="upload"><br><br>
+      <input type="submit" value="submit">
+     </div>
+  </fieldset>
+</body>
+</html>
